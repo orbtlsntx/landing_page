@@ -1,4 +1,43 @@
+
 img {
     width: 300px;
     height:200px;
+}
+
+
+header {
+    height: 200px;
+    width:auto;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+   
+    padding: 10px;
+    margin:0px
+}
+
+.links {
+    list-style: none;
+    gap: 50px;
+    display: inline-flex;
+    color: white;
+}
+.title1 {
+    flex: 1;
+    align-self: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-top: 0px;
+    color:white;
+    font-family: cursive;
+}
+.catchtag {
+    flex: 1;
+    align-self:flex-end;
+    justify-content:flex-start;
+    margin-top: 10px;
+    font-size: 20px;
+
+
 }
