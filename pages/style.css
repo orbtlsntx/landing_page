@@ -1,19 +1,20 @@
 
 img {
-    width: 300px;
-    height:200px;
+    width: 200px;
+    height:150px;
+
 }
 
 
 header {
-    height: 200px;
+    height: 220px;
     width:auto;
     background-color: #1f2937;
     display: flex;
     justify-content: flex-end;
    
     padding: 10px;
-    margin:0px
+    margin:10px
 }
 
 .links {
@@ -38,6 +39,77 @@ header {
     justify-content:flex-start;
     margin-top: 10px;
     font-size: 20px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.intro {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.logo, .logo2 {
+    font-family:cursive;
+    margin: 20px;
+}
+
+.logo {
+    font-size: 50px;
+}
+
+.logo2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.quote {
+    display: flex;
+    height:auto;
+    width:auto;
+    background-color: #e5e7eb ;
+    margin:45px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}   
 
 
+.ah, .pz, .gr {
+    text-align: center;
+    margin: 20px;
+}
+
+.footer {
+    height:110px;
+    width:auto;
+    background-color:#1f2937;
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+}
+
+.hbutton {
+    max-height: 65px;
+    width: auto;
+    color: white;
+    background-color:#3882f6; 
+    margin: auto;
+}
+.footlogo, .hbutton, .orbt {
+    flex:1;
+    text-align: center;
+    padding:10px;
+  
+ 
 }
