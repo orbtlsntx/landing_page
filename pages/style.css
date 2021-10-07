@@ -114,3 +114,42 @@ header {
   
  
 }
+
+
+   
+
+
+.bio2 {
+    list-style: none;
+    text-align: center;
+
+   
+}
+
+.about1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+    
+
+}   
+
+.bio1 {
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+}
+
+.contact-header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.link, .link2 {
+    text-decoration: none;
+}
+
+.link2 {
+    color: white;
+}
