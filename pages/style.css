@@ -105,6 +105,7 @@ header {
     color: white;
     background-color:#3882f6; 
     margin: auto;
+    width: 50px;
 }
 .footlogo, .hbutton, .orbt {
     flex:1;
